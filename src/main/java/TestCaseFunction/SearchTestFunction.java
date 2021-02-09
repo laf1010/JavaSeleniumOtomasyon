@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import utils.BasePage;
 
 public class SearchTestFunction extends BasePage {
+
     public SearchTestFunction(WebDriver driver) {
         super(driver);
     }

@@ -13,18 +13,9 @@ public class BasePage {
 
     public WebDriver driver;
 
-//    public WebElement element(By obje){
-//        WebElement willReturn = driver.findElement(obje);
-//        driver.wait(ExpectedConditions.elementToBeClickable(willReturn));
-//
-//        try {
-//            return driver.findElement(obje);
-//        }catch (Exception e) {
-//            System.out.println("Objeyi Bulurken Hata ile Karşıalştım!");
-//        }
-//        return null;
-//
-//    }
+    public WebElement element(By obje){
+            return driver.findElement(obje);
+    }
 
 
     public void sendKeys(By by, String text) throws InterruptedException {
